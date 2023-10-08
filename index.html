@@ -1,25 +1,41 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
     <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+          content="width=device-width, initial-scale=1.0" />
     <title>Etch a Sketch</title>
-
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
 </head>
 <body>
-    <div id="buttonDiv">
-        <button type="submit" id="newGrid">
-            New grid
-        </button>
+    <h1>ETCH A SKETCH</h1>
+
+    <div class="main">
+
+        <div id="menu">
+            <button id="penBtn">Pen</button>
+            <button id="eraserBtn">Eraser</button>
+            <button id="clearBtn">Clear</button>
+            <input type="color" id="colorInput" value="#000000" />
+            <div class="slider">
+                <input type="range" id="sizeSlider" value="16" min="2" max="100"  />
+                <br><label for="sizeSlider" id="sizeValue">16 x 16</label>
+            </div>
+        </div>
+
+        <div id="container">
+
+        </div>
+
     </div>
 
-    <div id="container">
-
-    </div>
-
+    <footer>
+        <p>
+            Copyright &copy; 2023 M. César Brancalhão
+        </p>
+    </footer>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

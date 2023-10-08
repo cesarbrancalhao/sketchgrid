@@ -1,2 +1,2 @@
 # Sketch grid
-Etch-a-sketch made with JS.
+Etch-a-sketch made with CSS, JavaScript and DOM manipulation.
